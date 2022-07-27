@@ -1,0 +1,40 @@
+#root {
+	margin: 0 auto;
+}
+
+header {
+	max-height: 100px;
+	display: flex;
+	background: #222;
+	padding: 2rem;
+	color: #fff;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	cursor: pointer;
+	height: 6em;
+	will-change: filter;
+	animation: logo-spin infinite 20s linear;
+}
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+article {
+	padding: 20px;
+	background: #ddd;
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
